@@ -17,9 +17,13 @@ table 50101 Course
         {
             OptionMembers = "Instructor Led","E-Learning","Remote Training";
         }
-        field(50; Dyration; Decimal)
+        field(45; Dyration; Decimal)
         {
         }
+        field(50; Duration; Decimal)
+        {
+        }
+
         field(60; Price; Decimal) { }
         field(70; Active; Boolean) { }
         field(80; Difficulty; Integer) { }
